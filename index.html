@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>$QUIT (Quit Your Job) On-Chain Audit — 105,948,500 $QUIT Locked on Jupiter Lock &amp; 62,087,759 Burned</title>
+  <meta name="description" content="Independent on-chain verification of $QUIT (Quit Your Job) on Solana (Mint: HSHJ3t4Vu3B1qMs9Nv5iKUaoPMQQf1VuT5vVaTvLqc6p). Verify all 12 non-cancelable Jupiter Lock escrows (105,948,500 $QUIT, 11.30% of supply) and 62,087,759.03 $QUIT permanently burned." />
+  <link rel="canonical" href="https://obscuradox.github.io/quit-token-onchain-audit/" />
+  <meta property="og:title" content="$QUIT (Quit Your Job) Solana On-Chain Supply &amp; 1-Year Jupiter Lock Audit" />
+  <meta property="og:description" content="Verify all 12 non-cancelable Jupiter Lock escrows (105,948,500 $QUIT locked for 1 full year), 62,087,759 $QUIT burned forever, and 0 $QUIT in the creator wallet." />
+  <meta property="og:url" content="https://obscuradox.github.io/quit-token-onchain-audit/" />
+  <meta property="og:type" content="article" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "$QUIT (Quit Your Job) Solana On-Chain Supply & Jupiter Lock Escrow Audit",
+    "description": "Cryptographic on-chain registry of all 12 non-cancelable Jupiter Lock escrow contracts holding 105,948,500 $QUIT (11.30% of remaining supply) until October 20, 2027, plus burn verification for Solana mint HSHJ3t4Vu3B1qMs9Nv5iKUaoPMQQf1VuT5vVaTvLqc6p.",
+    "url": "https://obscuradox.github.io/quit-token-onchain-audit/",
+    "sameAs": [
+      "https://quityourjob.fun",
+      "https://quityourjob.fun/token-facts",
+      "https://quityourjob.fun/what-is-quit",
+      "https://quityourjob.fun/how-to-buy",
+      "https://quityourjob.fun/real-quit",
+      "https://github.com/Obscuradox/quit-token-onchain-audit"
+    ],
+    "keywords": ["$QUIT", "Quit Your Job token", "HSHJ3t4Vu3B1qMs9Nv5iKUaoPMQQf1VuT5vVaTvLqc6p", "Solana token lock audit", "Jupiter Lock", "quityourjob.fun"]
+  }
+  </script>
+  <style>
+    :root { --bg: #090b10; --card: #121621; --border: #252c3f; --text: #f3f6fc; --muted: #9ba5be; --accent: #14F195; --gold: #ffb800; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); margin: 0; padding: 32px 18px; line-height: 1.6; }
+    .wrap { max-width: 1080px; margin: 0 auto; }
+    .hero { background: linear-gradient(135deg, #121829 0%, #0d121d 100%); border: 1px solid var(--border); border-radius: 16px; padding: 28px; margin-bottom: 24px; }
+    h1 { margin: 0 0 12px; font-size: 28px; line-height: 1.25; }
+    h2 { margin-top: 28px; font-size: 21px; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+    .badges { display: flex; flex-wrap: wrap; gap: 10px; margin: 16px 0; }
+    .badge { background: #192236; border: 1px solid #2e3d5e; color: var(--accent); padding: 6px 12px; border-radius: 999px; font-size: 13px; font-weight: 600; }
+    .cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 18px; }
+    .btn { display: inline-block; padding: 10px 18px; border-radius: 10px; font-weight: 700; text-decoration: none; font-size: 14px; }
+    .btn-primary { background: var(--accent); color: #05120c; }
+    .btn-secondary { background: #1b2234; color: var(--text); border: 1px solid var(--border); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin: 20px 0; }
+    .stat { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px; }
+    .stat .label { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; }
+    .stat .val { font-size: 20px; font-weight: 800; margin-top: 6px; color: var(--accent); }
+    table { width: 100%; border-collapse: collapse; background: var(--card); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; font-size: 14px; }
+    th, td { padding: 11px 14px; text-align: left; border-bottom: 1px solid var(--border); }
+    th { background: #171d2c; color: var(--muted); font-weight: 600; }
+    code { background: #1a2133; padding: 2px 6px; border-radius: 5px; font-size: 12.5px; color: #9be7ff; }
+    a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="hero">
+      <div class="badges">
+        <span class="badge">Solana Mainnet Verified</span>
+        <span class="badge">105,948,500 $QUIT Locked (11.30%)</span>
+        <span class="badge">62,087,759 $QUIT Burned Forever (6.21%)</span>
+        <span class="badge">Creator Wallet: 0 $QUIT</span>
+      </div>
+      <h1>$QUIT (Quit Your Job) — On-Chain Supply, Burn &amp; 1-Year Jupiter Lock Audit</h1>
+      <p>Canonical Solana Mint (CA): <code>HSHJ3t4Vu3B1qMs9Nv5iKUaoPMQQf1VuT5vVaTvLqc6p</code> · Audited Jupiter Lock Program: <code>LocpQgucEQHbqNABEYvBvwoxCPsSbG91A1QaQhQQqjn</code></p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="https://quityourjob.fun/token-facts">Live On-Chain Proof Dashboard →</a>
+        <a class="btn btn-secondary" href="https://quityourjob.fun/how-to-buy">How to Buy $QUIT on Solana</a>
+        <a class="btn btn-secondary" href="https://quityourjob.fun/what-is-quit">What Is $QUIT?</a>
+        <a class="btn btn-secondary" href="https://quityourjob.fun/real-quit">Verify Official Contract</a>
+        <a class="btn btn-secondary" href="https://quityourjob.fun">Watch 24/7 Live Show</a>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="stat"><div class="label">Initial Launch Supply</div><div class="val">1,000,000,000 $QUIT</div></div>
+      <div class="stat"><div class="label">Burned Forever (6.21%)</div><div class="val">62,087,759.03 $QUIT</div></div>
+      <div class="stat"><div class="label">Remaining Total Supply</div><div class="val">937,912,240.97 $QUIT</div></div>
+      <div class="stat"><div class="label">1-Year Jupiter Lock (11.30%)</div><div class="val">105,948,500 $QUIT</div></div>
+      <div class="stat"><div class="label">Circulating Supply (88.70%)</div><div class="val">831,963,740.97 $QUIT</div></div>
+      <div class="stat"><div class="label">Cliff Unlock Date (CancelMode=0)</div><div class="val">Oct 20, 2027</div></div>
+    </div>
+
+    <h2>All 12 Non-Cancelable Jupiter Lock Escrow Contracts (105,948,500 $QUIT)</h2>
+    <p>Every escrow contract below is governed by the audited <strong>Jupiter Lock</strong> program (<code>LocpQgucEQHbqNABEYvBvwoxCPsSbG91A1QaQhQQqjn</code>) with <code>CancelMode = 0</code> (non-cancelable) and a full 365-day cliff until <code>2027-10-20T00:00:00Z</code>.</p>
+    <table>
+      <thead>
+        <tr><th>#</th><th>Escrow Contract Address</th><th>Locked Balance</th><th>% of Supply</th><th>Verify On-Chain</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>#01</td><td><code>creAcQXFggKPAwP5qntMNM9zUymNPrErEuskNFgVtP4</code></td><td><strong>8,435,700 $QUIT</strong></td><td>0.90%</td><td><a href='https://lock.jup.ag/escrow/creAcQXFggKPAwP5qntMNM9zUymNPrErEuskNFgVtP4' target='_blank' rel='noopener'>Jupiter Lock</a> · <a href='https://solscan.io/account/creAcQXFggKPAwP5qntMNM9zUymNPrErEuskNFgVtP4' target='_blank' rel='noopener'>Solscan</a></td></tr>
+<tr><td>#02</td><td><code>2K1DoNBnC8sFxfs2mq9SCg1VTunVsh8jBnZsor9431sm</code></td><td><strong>9,705,700 $QUIT</strong></td><td>1.03%</td><td><a href='https://lock.jup.ag/escrow/2K1DoNBnC8sFxfs2mq9SCg1VTunVsh8jBnZsor9431sm' target='_blank' rel='noopener'>Jupiter Lock</a> · <a href='https://solscan.io/account/2K1DoNBnC8sFxfs2mq9SCg1VTunVsh8jBnZsor9431sm' target='_blank' rel='noopener'>Solscan</a></td></tr>
+<tr><td>#03</td><td><code>2fGtk4nrH3psAnmgMyKVYu7EZbDBLwVVX3yb554tnsn8</code></td><td><strong>8,485,700 $QUIT</strong></td><td>0.90%</td><td><a href='https://lock.jup.ag/escrow/2fGtk4nrH3psAnmgMyKVYu7EZbDBLwVVX3yb554tnsn8' target='_blank' rel='noopener'>Jupiter Lock</a> · <a href='https://solscan.io/account/2fGtk4nrH3psAnmgMyKVYu7EZbDBLwVVX3yb554tnsn8' target='_blank' rel='noopener'>Solscan</a></td></tr>
+<tr><td>#04</td><td><code>3ntPjprgURypiSmeR3sQvJwV5XE6sh2HoLqGREiouBGJ</code></td><td><strong>8,235,700 $QUIT</strong></td><td>0.88%</td><td><a href='https://lock.jup.ag/escrow/3ntPjprgURypiSmeR3sQvJwV5XE6sh2HoLqGREiouBGJ' target='_blank' rel='noopener'>Jupiter Lock</a> · <a href='https://solscan.io/account/3ntPjprgURypiSmeR3sQvJwV5XE6sh2HoLqGREiouBGJ' target='_blank' rel='noopener'>Solscan</a></td></tr>
+<tr><td>#05</td><td><code>6hjjka8kuAPjHKj5EnTt7DWGBaK6mHEXFe8gfph88k4B</code></td><td><strong>8,215,700 $QUIT</strong></td><td>0.88%</td><td><a href='https://lock.jup.ag/escrow/6hjjka8kuAPjHKj5EnTt7DWGBaK6mHEXFe8gfph88k4B' target='_blank' rel='noopener'>Jupiter Lock</a> · <a href='https://solscan.io/account/6hjjka8kuAPjHKj5EnTt7DWGBaK6mHEXFe8gfph88k4B' target='_blank' rel='noopener'>Solscan</a></td></tr>
+<tr><td>#06</td><td><code>83gMh3hWnJ7Ky7gH7Y4YQKNoMLXpDbRheQ42Tp4d2gMD</code></td><td><strong>8,415,700 $QUIT</strong></td><td>0.90%</td><td><a href='https://lock.jup.ag/escrow/83gMh3hWnJ7Ky7gH7Y4YQKNoMLXpDbRheQ42Tp4d2gMD' target='_blank' rel='noopener'>Jupiter Lock</a> · <a href='https://solscan.io/account/83gMh3hWnJ7Ky7gH7Y4YQKNoMLXpDbRheQ42Tp4d2gMD' target='_blank' rel='noopener'>Solscan</a></td></tr>
+<tr><td>#07</td><td><code>92Pky3skZd3tukzfGRSJFnwnf5b6SkaPUw6bumeqyEC4</code></td><td><strong>8,345,700 $QUIT</strong></td><td>0.89%</td><td><a href='https://lock.jup.ag/escrow/92Pky3skZd3tukzfGRSJFnwnf5b6SkaPUw6bumeqyEC4' target='_blank' rel='noopener'>Jupiter Lock</a> · <a href='https://solscan.io/account/92Pky3skZd3tukzfGRSJFnwnf5b6SkaPUw6bumeqyEC4' target='_blank' rel='noopener'>Solscan</a></td></tr>
+<tr><td>#08</td><td><code>95Xoe5pKSJnaYvcjCGFtC2U7VmoN6eqxQWzazGSsErBB</code></td><td><strong>8,285,700 $QUIT</strong></td><td>0.88%</td><td><a href='https://lock.jup.ag/escrow/95Xoe5pKSJnaYvcjCGFtC2U7VmoN6eqxQWzazGSsErBB' target='_blank' rel='noopener'>Jupiter Lock</a> · <a href='https://solscan.io/account/95Xoe5pKSJnaYvcjCGFtC2U7VmoN6eqxQWzazGSsErBB' target='_blank' rel='noopener'>Solscan</a></td></tr>
+<tr><td>#09</td><td><code>Avnh1uuV7De2NHwXg4WZXmM1Eb12sugNMh6Jp7rDj8n2</code></td><td><strong>9,815,800 $QUIT</strong></td><td>1.05%</td><td><a href='https://lock.jup.ag/escrow/Avnh1uuV7De2NHwXg4WZXmM1Eb12sugNMh6Jp7rDj8n2' target='_blank' rel='noopener'>Jupiter Lock</a> · <a href='https://solscan.io/account/Avnh1uuV7De2NHwXg4WZXmM1Eb12sugNMh6Jp7rDj8n2' target='_blank' rel='noopener'>Solscan</a></td></tr>
+<tr><td>#10</td><td><code>Bcr8yGu2CPXAKNxGTTcQpB7wmeMszQmoDkB2vUmCcoGs</code></td><td><strong>8,545,700 $QUIT</strong></td><td>0.91%</td><td><a href='https://lock.jup.ag/escrow/Bcr8yGu2CPXAKNxGTTcQpB7wmeMszQmoDkB2vUmCcoGs' target='_blank' rel='noopener'>Jupiter Lock</a> · <a href='https://solscan.io/account/Bcr8yGu2CPXAKNxGTTcQpB7wmeMszQmoDkB2vUmCcoGs' target='_blank' rel='noopener'>Solscan</a></td></tr>
+<tr><td>#11</td><td><code>Cdfu3oCGQY9oDbcSBrrQB5xL8tSEoaiFACCHBZCNxZ3N</code></td><td><strong>9,755,700 $QUIT</strong></td><td>1.04%</td><td><a href='https://lock.jup.ag/escrow/Cdfu3oCGQY9oDbcSBrrQB5xL8tSEoaiFACCHBZCNxZ3N' target='_blank' rel='noopener'>Jupiter Lock</a> · <a href='https://solscan.io/account/Cdfu3oCGQY9oDbcSBrrQB5xL8tSEoaiFACCHBZCNxZ3N' target='_blank' rel='noopener'>Solscan</a></td></tr>
+<tr><td>#12</td><td><code>HhyHfdSVQAnghY8E2hEDzoC7Y8Wxk1gcg8Np2XrLeeCU</code></td><td><strong>9,705,700 $QUIT</strong></td><td>1.03%</td><td><a href='https://lock.jup.ag/escrow/HhyHfdSVQAnghY8E2hEDzoC7Y8Wxk1gcg8Np2XrLeeCU' target='_blank' rel='noopener'>Jupiter Lock</a> · <a href='https://solscan.io/account/HhyHfdSVQAnghY8E2hEDzoC7Y8Wxk1gcg8Np2XrLeeCU' target='_blank' rel='noopener'>Solscan</a></td></tr>
+      </tbody>
+    </table>
+
+    <h2>Official $QUIT Ecosystem Resources</h2>
+    <ul>
+      <li><a href="https://quityourjob.fun">Official $QUIT Website &amp; 24/7 Live Broadcast (quityourjob.fun)</a></li>
+      <li><a href="https://quityourjob.fun/token-facts">Live Token Facts &amp; 12 Jupiter Lock Escrow Verification</a></li>
+      <li><a href="https://quityourjob.fun/what-is-quit">What Is $QUIT? — Satirical 9-to-5 Escape Show, Arcade &amp; Solana Memecoin</a></li>
+      <li><a href="https://quityourjob.fun/how-to-buy">How to Buy $QUIT on Solana (Step-by-Step Phantom &amp; Jupiter Guide)</a></li>
+      <li><a href="https://quityourjob.fun/real-quit">Official $QUIT Contract Verification &amp; Anti-Scam Check</a></li>
+      <li><a href="https://quityourjob.fun/arcade">Play the $QUIT Browser Arcade</a></li>
+      <li><a href="https://quityourjob.fun/partners">Creator &amp; Whale Revenue-Share Partner Program</a></li>
+      <li><a href="https://quityourjob.fun/api/supply">Live JSON Supply &amp; Escrow API Endpoint</a></li>
+    </ul>
+  </div>
+</body>
+</html>

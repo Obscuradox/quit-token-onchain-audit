@@ -1,0 +1,137 @@
+{
+  "token": {
+    "symbol": "$QUIT",
+    "name": "Quit Your Job",
+    "network": "Solana Mainnet-Beta",
+    "mintAddress": "HSHJ3t4Vu3B1qMs9Nv5iKUaoPMQQf1VuT5vVaTvLqc6p",
+    "decimals": 6,
+    "officialWebsite": "https://quityourjob.fun",
+    "liveTokenFactsUrl": "https://quityourjob.fun/token-facts",
+    "howToBuyUrl": "https://quityourjob.fun/how-to-buy",
+    "whatIsQuitUrl": "https://quityourjob.fun/what-is-quit",
+    "realQuitVerificationUrl": "https://quityourjob.fun/real-quit",
+    "liveApiEndpoint": "https://quityourjob.fun/api/supply",
+    "dexScreenerUrl": "https://dexscreener.com/solana/HSHJ3t4Vu3B1qMs9Nv5iKUaoPMQQf1VuT5vVaTvLqc6p",
+    "solscanTokenUrl": "https://solscan.io/token/HSHJ3t4Vu3B1qMs9Nv5iKUaoPMQQf1VuT5vVaTvLqc6p"
+  },
+  "supplyInvariants": {
+    "initialLaunchSupply": 1000000000.0,
+    "permanentlyBurnedSupply": 62087759.030671,
+    "burnedPctOfInitial": 6.21,
+    "totalSupplyRemaining": 937912240.969329,
+    "lockedSupply": 105948500.0,
+    "lockedPctOfTotal": 11.3,
+    "lockedPctOfInitial": 10.59,
+    "circulatingSupply": 831963740.969329,
+    "creatorWalletAddress": "CzupaQuM7EyeT2orphePcJ9xuGcjZXY8G6S8ThfMWY5S",
+    "creatorWalletDirectBalance": 0
+  },
+  "jupiterLockAudit": {
+    "programName": "Jupiter Lock",
+    "programId": "LocpQgucEQHbqNABEYvBvwoxCPsSbG91A1QaQhQQqjn",
+    "escrowCount": 12,
+    "cancelMode": 0,
+    "cancelable": false,
+    "unlockType": "100% Cliff Unlock after 365 Days",
+    "lockDurationDays": 365,
+    "unlockDateIso": "2027-10-20T00:00:00Z",
+    "escrowAccounts": [
+      {
+        "index": 1,
+        "escrowAddress": "creAcQXFggKPAwP5qntMNM9zUymNPrErEuskNFgVtP4",
+        "amountQuit": 8435700.0,
+        "pctOfTotalSupply": 0.9,
+        "jupiterLockUrl": "https://lock.jup.ag/escrow/creAcQXFggKPAwP5qntMNM9zUymNPrErEuskNFgVtP4",
+        "solscanAccountUrl": "https://solscan.io/account/creAcQXFggKPAwP5qntMNM9zUymNPrErEuskNFgVtP4"
+      },
+      {
+        "index": 2,
+        "escrowAddress": "2K1DoNBnC8sFxfs2mq9SCg1VTunVsh8jBnZsor9431sm",
+        "amountQuit": 9705700.0,
+        "pctOfTotalSupply": 1.03,
+        "jupiterLockUrl": "https://lock.jup.ag/escrow/2K1DoNBnC8sFxfs2mq9SCg1VTunVsh8jBnZsor9431sm",
+        "solscanAccountUrl": "https://solscan.io/account/2K1DoNBnC8sFxfs2mq9SCg1VTunVsh8jBnZsor9431sm"
+      },
+      {
+        "index": 3,
+        "escrowAddress": "2fGtk4nrH3psAnmgMyKVYu7EZbDBLwVVX3yb554tnsn8",
+        "amountQuit": 8485700.0,
+        "pctOfTotalSupply": 0.9,
+        "jupiterLockUrl": "https://lock.jup.ag/escrow/2fGtk4nrH3psAnmgMyKVYu7EZbDBLwVVX3yb554tnsn8",
+        "solscanAccountUrl": "https://solscan.io/account/2fGtk4nrH3psAnmgMyKVYu7EZbDBLwVVX3yb554tnsn8"
+      },
+      {
+        "index": 4,
+        "escrowAddress": "3ntPjprgURypiSmeR3sQvJwV5XE6sh2HoLqGREiouBGJ",
+        "amountQuit": 8235700.0,
+        "pctOfTotalSupply": 0.88,
+        "jupiterLockUrl": "https://lock.jup.ag/escrow/3ntPjprgURypiSmeR3sQvJwV5XE6sh2HoLqGREiouBGJ",
+        "solscanAccountUrl": "https://solscan.io/account/3ntPjprgURypiSmeR3sQvJwV5XE6sh2HoLqGREiouBGJ"
+      },
+      {
+        "index": 5,
+        "escrowAddress": "6hjjka8kuAPjHKj5EnTt7DWGBaK6mHEXFe8gfph88k4B",
+        "amountQuit": 8215700.0,
+        "pctOfTotalSupply": 0.88,
+        "jupiterLockUrl": "https://lock.jup.ag/escrow/6hjjka8kuAPjHKj5EnTt7DWGBaK6mHEXFe8gfph88k4B",
+        "solscanAccountUrl": "https://solscan.io/account/6hjjka8kuAPjHKj5EnTt7DWGBaK6mHEXFe8gfph88k4B"
+      },
+      {
+        "index": 6,
+        "escrowAddress": "83gMh3hWnJ7Ky7gH7Y4YQKNoMLXpDbRheQ42Tp4d2gMD",
+        "amountQuit": 8415700.0,
+        "pctOfTotalSupply": 0.9,
+        "jupiterLockUrl": "https://lock.jup.ag/escrow/83gMh3hWnJ7Ky7gH7Y4YQKNoMLXpDbRheQ42Tp4d2gMD",
+        "solscanAccountUrl": "https://solscan.io/account/83gMh3hWnJ7Ky7gH7Y4YQKNoMLXpDbRheQ42Tp4d2gMD"
+      },
+      {
+        "index": 7,
+        "escrowAddress": "92Pky3skZd3tukzfGRSJFnwnf5b6SkaPUw6bumeqyEC4",
+        "amountQuit": 8345700.0,
+        "pctOfTotalSupply": 0.89,
+        "jupiterLockUrl": "https://lock.jup.ag/escrow/92Pky3skZd3tukzfGRSJFnwnf5b6SkaPUw6bumeqyEC4",
+        "solscanAccountUrl": "https://solscan.io/account/92Pky3skZd3tukzfGRSJFnwnf5b6SkaPUw6bumeqyEC4"
+      },
+      {
+        "index": 8,
+        "escrowAddress": "95Xoe5pKSJnaYvcjCGFtC2U7VmoN6eqxQWzazGSsErBB",
+        "amountQuit": 8285700.0,
+        "pctOfTotalSupply": 0.88,
+        "jupiterLockUrl": "https://lock.jup.ag/escrow/95Xoe5pKSJnaYvcjCGFtC2U7VmoN6eqxQWzazGSsErBB",
+        "solscanAccountUrl": "https://solscan.io/account/95Xoe5pKSJnaYvcjCGFtC2U7VmoN6eqxQWzazGSsErBB"
+      },
+      {
+        "index": 9,
+        "escrowAddress": "Avnh1uuV7De2NHwXg4WZXmM1Eb12sugNMh6Jp7rDj8n2",
+        "amountQuit": 9815800.0,
+        "pctOfTotalSupply": 1.05,
+        "jupiterLockUrl": "https://lock.jup.ag/escrow/Avnh1uuV7De2NHwXg4WZXmM1Eb12sugNMh6Jp7rDj8n2",
+        "solscanAccountUrl": "https://solscan.io/account/Avnh1uuV7De2NHwXg4WZXmM1Eb12sugNMh6Jp7rDj8n2"
+      },
+      {
+        "index": 10,
+        "escrowAddress": "Bcr8yGu2CPXAKNxGTTcQpB7wmeMszQmoDkB2vUmCcoGs",
+        "amountQuit": 8545700.0,
+        "pctOfTotalSupply": 0.91,
+        "jupiterLockUrl": "https://lock.jup.ag/escrow/Bcr8yGu2CPXAKNxGTTcQpB7wmeMszQmoDkB2vUmCcoGs",
+        "solscanAccountUrl": "https://solscan.io/account/Bcr8yGu2CPXAKNxGTTcQpB7wmeMszQmoDkB2vUmCcoGs"
+      },
+      {
+        "index": 11,
+        "escrowAddress": "Cdfu3oCGQY9oDbcSBrrQB5xL8tSEoaiFACCHBZCNxZ3N",
+        "amountQuit": 9755700.0,
+        "pctOfTotalSupply": 1.04,
+        "jupiterLockUrl": "https://lock.jup.ag/escrow/Cdfu3oCGQY9oDbcSBrrQB5xL8tSEoaiFACCHBZCNxZ3N",
+        "solscanAccountUrl": "https://solscan.io/account/Cdfu3oCGQY9oDbcSBrrQB5xL8tSEoaiFACCHBZCNxZ3N"
+      },
+      {
+        "index": 12,
+        "escrowAddress": "HhyHfdSVQAnghY8E2hEDzoC7Y8Wxk1gcg8Np2XrLeeCU",
+        "amountQuit": 9705700.0,
+        "pctOfTotalSupply": 1.03,
+        "jupiterLockUrl": "https://lock.jup.ag/escrow/HhyHfdSVQAnghY8E2hEDzoC7Y8Wxk1gcg8Np2XrLeeCU",
+        "solscanAccountUrl": "https://solscan.io/account/HhyHfdSVQAnghY8E2hEDzoC7Y8Wxk1gcg8Np2XrLeeCU"
+      }
+    ]
+  }
+}
