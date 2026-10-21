@@ -9,8 +9,15 @@
     "liveTokenFactsUrl": "https://quityourjob.fun/token-facts",
     "howToBuyUrl": "https://quityourjob.fun/how-to-buy",
     "whatIsQuitUrl": "https://quityourjob.fun/what-is-quit",
+    "manifestoUrl": "https://quityourjob.fun/manifesto",
     "realQuitVerificationUrl": "https://quityourjob.fun/real-quit",
+    "llmsTxtUrl": "https://quityourjob.fun/llms.txt",
+    "llmsFullTxtUrl": "https://quityourjob.fun/llms-full.txt",
     "liveApiEndpoint": "https://quityourjob.fun/api/supply",
+    "pumpSwapPoolAddress": "4wL2LLs4hsh3hYXKUZ7vn7ovQJBMtEbre1CiF2VLKV6h",
+    "pumpSwapLpBurnedPct": 100.0,
+    "mintAuthority": null,
+    "freezeAuthority": null,
     "dexScreenerUrl": "https://dexscreener.com/solana/HSHJ3t4Vu3B1qMs9Nv5iKUaoPMQQf1VuT5vVaTvLqc6p",
     "solscanTokenUrl": "https://solscan.io/token/HSHJ3t4Vu3B1qMs9Nv5iKUaoPMQQf1VuT5vVaTvLqc6p"
   },
@@ -39,6 +46,7 @@
       {
         "index": 1,
         "escrowAddress": "creAcQXFggKPAwP5qntMNM9zUymNPrErEuskNFgVtP4",
+        "tokenAccountAddress": "12iWe3sPQ2h9MK48hRyNWnXKqh8rsiJLFNS8Km2HnStV",
         "amountQuit": 8435700.0,
         "pctOfTotalSupply": 0.9,
         "jupiterLockUrl": "https://lock.jup.ag/escrow/creAcQXFggKPAwP5qntMNM9zUymNPrErEuskNFgVtP4",
@@ -47,6 +55,7 @@
       {
         "index": 2,
         "escrowAddress": "2K1DoNBnC8sFxfs2mq9SCg1VTunVsh8jBnZsor9431sm",
+        "tokenAccountAddress": "FK9PHddU7ojupfPxkHyxcA3gwUJRwSStN8ov2kZJXYJj",
         "amountQuit": 9705700.0,
         "pctOfTotalSupply": 1.03,
         "jupiterLockUrl": "https://lock.jup.ag/escrow/2K1DoNBnC8sFxfs2mq9SCg1VTunVsh8jBnZsor9431sm",
@@ -55,6 +64,7 @@
       {
         "index": 3,
         "escrowAddress": "2fGtk4nrH3psAnmgMyKVYu7EZbDBLwVVX3yb554tnsn8",
+        "tokenAccountAddress": "6mu26GxS3zkv4mTG2qjz52Tn1EtH94B3kF4kt9oRKL5k",
         "amountQuit": 8485700.0,
         "pctOfTotalSupply": 0.9,
         "jupiterLockUrl": "https://lock.jup.ag/escrow/2fGtk4nrH3psAnmgMyKVYu7EZbDBLwVVX3yb554tnsn8",
@@ -63,6 +73,7 @@
       {
         "index": 4,
         "escrowAddress": "3ntPjprgURypiSmeR3sQvJwV5XE6sh2HoLqGREiouBGJ",
+        "tokenAccountAddress": "3PUp4CMJeYFSmapT6yF4xx9NwPacRoRWs66JvTq3uWhc",
         "amountQuit": 8235700.0,
         "pctOfTotalSupply": 0.88,
         "jupiterLockUrl": "https://lock.jup.ag/escrow/3ntPjprgURypiSmeR3sQvJwV5XE6sh2HoLqGREiouBGJ",
@@ -71,6 +82,7 @@
       {
         "index": 5,
         "escrowAddress": "6hjjka8kuAPjHKj5EnTt7DWGBaK6mHEXFe8gfph88k4B",
+        "tokenAccountAddress": "DXQQdycFAjW72WeRuaMJ5EzWt85UvxMm5YueWVSbsuA2",
         "amountQuit": 8215700.0,
         "pctOfTotalSupply": 0.88,
         "jupiterLockUrl": "https://lock.jup.ag/escrow/6hjjka8kuAPjHKj5EnTt7DWGBaK6mHEXFe8gfph88k4B",
@@ -79,6 +91,7 @@
       {
         "index": 6,
         "escrowAddress": "83gMh3hWnJ7Ky7gH7Y4YQKNoMLXpDbRheQ42Tp4d2gMD",
+        "tokenAccountAddress": "ApL9U6R4jqXFD4uHN9V8tqLeJBQAgSi2gici3JAAEM37",
         "amountQuit": 8415700.0,
         "pctOfTotalSupply": 0.9,
         "jupiterLockUrl": "https://lock.jup.ag/escrow/83gMh3hWnJ7Ky7gH7Y4YQKNoMLXpDbRheQ42Tp4d2gMD",
@@ -87,6 +100,7 @@
       {
         "index": 7,
         "escrowAddress": "92Pky3skZd3tukzfGRSJFnwnf5b6SkaPUw6bumeqyEC4",
+        "tokenAccountAddress": "DktabtwUEQXny5Hq75JwCbRU5acQMHz6yx7uT8TeYY3s",
         "amountQuit": 8345700.0,
         "pctOfTotalSupply": 0.89,
         "jupiterLockUrl": "https://lock.jup.ag/escrow/92Pky3skZd3tukzfGRSJFnwnf5b6SkaPUw6bumeqyEC4",
@@ -95,6 +109,7 @@
       {
         "index": 8,
         "escrowAddress": "95Xoe5pKSJnaYvcjCGFtC2U7VmoN6eqxQWzazGSsErBB",
+        "tokenAccountAddress": "EbrbMbzvA5hM7paPPsMD4ReB7Z1NVDqvWcSWgBKAeZzV",
         "amountQuit": 8285700.0,
         "pctOfTotalSupply": 0.88,
         "jupiterLockUrl": "https://lock.jup.ag/escrow/95Xoe5pKSJnaYvcjCGFtC2U7VmoN6eqxQWzazGSsErBB",
@@ -103,6 +118,7 @@
       {
         "index": 9,
         "escrowAddress": "Avnh1uuV7De2NHwXg4WZXmM1Eb12sugNMh6Jp7rDj8n2",
+        "tokenAccountAddress": "DQCPFfoLyFp7aUDRxnmhiKBhM5j2CZqCmXwx7uZpmjQ6",
         "amountQuit": 9815800.0,
         "pctOfTotalSupply": 1.05,
         "jupiterLockUrl": "https://lock.jup.ag/escrow/Avnh1uuV7De2NHwXg4WZXmM1Eb12sugNMh6Jp7rDj8n2",
@@ -111,6 +127,7 @@
       {
         "index": 10,
         "escrowAddress": "Bcr8yGu2CPXAKNxGTTcQpB7wmeMszQmoDkB2vUmCcoGs",
+        "tokenAccountAddress": "5HEjR6KitvJqKr6e5itJFvKAA3cr8KcYpqsY8oYXpapu",
         "amountQuit": 8545700.0,
         "pctOfTotalSupply": 0.91,
         "jupiterLockUrl": "https://lock.jup.ag/escrow/Bcr8yGu2CPXAKNxGTTcQpB7wmeMszQmoDkB2vUmCcoGs",
@@ -119,6 +136,7 @@
       {
         "index": 11,
         "escrowAddress": "Cdfu3oCGQY9oDbcSBrrQB5xL8tSEoaiFACCHBZCNxZ3N",
+        "tokenAccountAddress": "HjkGipD1vhP28H61zkGcSqeVdKCPGB8XiGL7W7KvfWpu",
         "amountQuit": 9755700.0,
         "pctOfTotalSupply": 1.04,
         "jupiterLockUrl": "https://lock.jup.ag/escrow/Cdfu3oCGQY9oDbcSBrrQB5xL8tSEoaiFACCHBZCNxZ3N",
@@ -127,11 +145,56 @@
       {
         "index": 12,
         "escrowAddress": "HhyHfdSVQAnghY8E2hEDzoC7Y8Wxk1gcg8Np2XrLeeCU",
+        "tokenAccountAddress": "AjMrCxNwghtLVjkpPqGhZ4VtJTRDjtpUUJsKwZ2EZgsu",
         "amountQuit": 9705700.0,
         "pctOfTotalSupply": 1.03,
         "jupiterLockUrl": "https://lock.jup.ag/escrow/HhyHfdSVQAnghY8E2hEDzoC7Y8Wxk1gcg8Np2XrLeeCU",
         "solscanAccountUrl": "https://solscan.io/account/HhyHfdSVQAnghY8E2hEDzoC7Y8Wxk1gcg8Np2XrLeeCU"
       }
     ]
-  }
+  },
+  "liveProductsAndCatalysts": [
+    {
+      "date": "Live Now (24/7)",
+      "title": "SEND IT Live Broadcast & Price-Driven Flight Game",
+      "url": "https://quityourjob.fun/break-room-tv",
+      "details": "24/7 live interactive show across 8 building floors with 38 callers where $QUIT buys push Gary's altitude up and sells drop Brenda from HR."
+    },
+    {
+      "date": "2026-10-26 to 2026-11-02",
+      "title": "Weekly Browser Arcade Cups & Holder Skins",
+      "url": "https://quityourjob.fun/arcade",
+      "details": "5 free browser arcade games (Stapler Storm, Escape the Standup, Fire the Overlords, Fire Exit, You Wandered Into Accounting) with weekly prize pools and holder skins."
+    },
+    {
+      "date": "2026-11-02 to 2026-11-09",
+      "title": "EX-EMPLOYEES 9,000 PFP Holder Design Locks Open",
+      "url": "https://quityourjob.fun/manifesto",
+      "details": "Wallets holding at least 1,000,000 $QUIT can sign in with a Solana wallet and lock 1 custom PFP design per wallet (up to 3,000 locks)."
+    },
+    {
+      "date": "2026-11-09 to 2026-11-13",
+      "title": "Five Daily Holder Snapshots for EX-EMPLOYEES Free Airdrop",
+      "url": "https://quityourjob.fun/manifesto",
+      "details": "Five daily on-chain holder snapshots qualify wallets for the free EX-EMPLOYEES PFP airdrop."
+    },
+    {
+      "date": "2026-11-16",
+      "title": "The QUIT Launchpad Opens Real-Money Token Launches",
+      "url": "https://quityourjob.fun/manifesto",
+      "details": "Solana token launchpad with creator verification, anti-rug safety scoring, and live broadcast room."
+    },
+    {
+      "date": "2026-11-20",
+      "title": "EX-EMPLOYEES 9,000 PFP Free Holder Airdrop Delivery",
+      "url": "https://quityourjob.fun/manifesto",
+      "details": "Free on-chain delivery of the 9,000 EX-EMPLOYEES PFP collection on Solana to qualifying $QUIT holders."
+    },
+    {
+      "date": "2026-11-30",
+      "title": "Web & Mobile App Store Submissions",
+      "url": "https://quityourjob.fun/manifesto",
+      "details": "Installable web and mobile app combining the live show, browser arcade, live chart, and Jupiter swap desk."
+    }
+  ]
 }
