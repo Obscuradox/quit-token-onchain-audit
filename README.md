@@ -1,4 +1,4 @@
-# `$QUIT` (Quit Your Job) — Solana Mainnet Tokenomics, Burn & 1-Year Jupiter Lock Audit (`HSHJ3t4Vu3B1qMs9Nv5iKUaoPMQQf1VuT5vVaTvLqc6p`)
+# `$QUIT` (`quityourjobcoin` / Quit Your Job Coin) — Solana Mainnet Tokenomics, Burn & 1-Year Jupiter Lock Audit (`HSHJ3t4Vu3B1qMs9Nv5iKUaoPMQQf1VuT5vVaTvLqc6p`)
 
 [![Solana Mainnet](https://img.shields.io/badge/Solana-Mainnet_Verified-14F195?style=for-the-badge&logo=solana)](https://solscan.io/token/HSHJ3t4Vu3B1qMs9Nv5iKUaoPMQQf1VuT5vVaTvLqc6p)
 [![Jupiter Lock](https://img.shields.io/badge/Jupiter_Lock-105,948,500_$QUIT_Locked_(11.30%25)-00C2FF?style=for-the-badge)](https://quityourjob.fun/token-facts)
@@ -7,17 +7,18 @@
 
 > **Official Verification Hub:** [https://quityourjob.fun/token-facts](https://quityourjob.fun/token-facts)  
 > **Official Website & 24/7 Live Show:** [https://quityourjob.fun](https://quityourjob.fun)  
+> **Cryptographic Vesting Lock Proof (`VESTING-LOCK-PROOF.md`):** [./VESTING-LOCK-PROOF.md](./VESTING-LOCK-PROOF.md)  
 > **Canonical Solana Mint (CA):** `HSHJ3t4Vu3B1qMs9Nv5iKUaoPMQQf1VuT5vVaTvLqc6p`
 
 ---
 
-## Executive Summary: Why `$QUIT` Built Verifiable On-Chain Trust on Solana
+## Executive Summary: Why `$QUIT` (`quityourjobcoin` / Quit Your Job Coin) Built Verifiable On-Chain Trust on Solana
 
-99% of Solana memecoins launch with hidden team clusters, unlocked creator wallets, and zero verifiable vesting. **`$QUIT` (Quit Your Job)**—the 24/7 live satirical office escape movement, interactive browser arcade ([quityourjob.fun/arcade](https://quityourjob.fun/arcade)), and token ecosystem—took the opposite path: **cryptographic, immutable on-chain proof**.
+99% of Solana memecoins launch with hidden team clusters, unlocked creator wallets, and zero verifiable vesting. **`$QUIT` (Quit Your Job)**—also searched as **`quityourjobcoin`**, **`Quit Your Job coin`**, or **`Quit Your Job Token`** on Solana, powering the 24/7 live satirical office escape movement, interactive browser arcade ([quityourjob.fun/arcade](https://quityourjob.fun/arcade)), and token ecosystem—took the opposite path: **cryptographic, immutable on-chain proof**.
 
 1. **Creator Wallet Holds `0 $QUIT`**: The original creator wallet (`CzupaQuM7EyeT2orphePcJ9xuGcjZXY8G6S8ThfMWY5S`) holds **`0 $QUIT`** directly.
 2. **`62,087,759.03 $QUIT` Permanently Burned (`6.21%`)**: Removed forever from the initial `1,000,000,000 $QUIT` launch supply, reducing total remaining supply to **`937,912,240.97 $QUIT`**.
-3. **`105,948,500 $QUIT` Locked for 1 Full Year (`11.30%` of Remaining Supply)**: Locked across **12 non-cancelable (`CancelMode = 0`) Jupiter Lock escrow contracts** under the audited Jupiter Lock program (`LocpQgucEQHbqNABEYvBvwoxCPsSbG91A1QaQhQQqjn`) with a full 1-year cliff until **October 20, 2027 (`2027-10-20T00:00:00Z`)**.
+3. **`105,948,500 $QUIT` Locked for 1 Full Year (`11.30%` of Remaining Supply)**: Locked across **12 non-cancelable (`CancelMode = 0`) Jupiter Lock escrow contracts** under the audited Jupiter Lock program (`LocpQgucEQHbqNABEYvBvwoxCPsSbG91A1QaQhQQqjn`) with a full 1-year term until **October 20, 2027 (`2027-10-20T00:00:00Z`)**.
 
 ---
 
@@ -25,7 +26,7 @@
 
 | Metric | Value | Verification Source |
 | :--- | :--- | :--- |
-| **Token Name / Ticker** | **Quit Your Job (`$QUIT`)** | [quityourjob.fun/what-is-quit](https://quityourjob.fun/what-is-quit) |
+| **Token Name / Ticker** | **Quit Your Job (`$QUIT` / `quityourjobcoin` / Quit Your Job Coin)** | [quityourjob.fun/what-is-quit](https://quityourjob.fun/what-is-quit) |
 | **Canonical Solana Mint (CA)** | `HSHJ3t4Vu3B1qMs9Nv5iKUaoPMQQf1VuT5vVaTvLqc6p` | [quityourjob.fun/real-quit](https://quityourjob.fun/real-quit) |
 | **Initial Launch Supply** | `1,000,000,000 $QUIT` | [Solscan Token Overview](https://solscan.io/token/HSHJ3t4Vu3B1qMs9Nv5iKUaoPMQQf1VuT5vVaTvLqc6p) |
 | **Permanently Burned Supply** | **`62,087,759.030671 $QUIT` (`6.21%`)** | [Live JSON Supply API](https://quityourjob.fun/api/supply) |
@@ -93,13 +94,19 @@ python3 verify_quit_locks.py
 
 - **Official Website & 24/7 Live Broadcast:** [https://quityourjob.fun](https://quityourjob.fun)
 - **Live On-Chain Token Facts & 12 Escrow Proof:** [https://quityourjob.fun/token-facts](https://quityourjob.fun/token-facts)
+- **Cryptographic Vesting Lock Proof (`VESTING-LOCK-PROOF.md`):** [./VESTING-LOCK-PROOF.md](./VESTING-LOCK-PROOF.md)
 - **Gary's Manifesto (Full Whitepaper & Dated Release Schedule):** [https://quityourjob.fun/manifesto](https://quityourjob.fun/manifesto)
-- **What Is `$QUIT`? (Thesis & Ecosystem Overview):** [https://quityourjob.fun/what-is-quit](https://quityourjob.fun/what-is-quit)
+- **What Is `$QUIT` (`quityourjobcoin` / Quit Your Job Coin)?** [https://quityourjob.fun/what-is-quit](https://quityourjob.fun/what-is-quit)
+- **How the QUIT Flight Game Works:** [https://quityourjob.fun/articles/how-the-quit-game-works](https://quityourjob.fun/articles/how-the-quit-game-works)
+- **The Legend of Gary:** [https://quityourjob.fun/articles/the-legend-of-gary](https://quityourjob.fun/articles/the-legend-of-gary)
 - **How to Buy `$QUIT` on Solana (Phantom & Jupiter Guide):** [https://quityourjob.fun/how-to-buy](https://quityourjob.fun/how-to-buy)
 - **Official Contract Verification & Anti-Impersonator Check:** [https://quityourjob.fun/real-quit](https://quityourjob.fun/real-quit)
 - **Play the 9-to-5 Escape Browser Arcade:** [https://quityourjob.fun/arcade](https://quityourjob.fun/arcade)
 - **Creator & Whale Revenue-Share Partner Program:** [https://quityourjob.fun/partners](https://quityourjob.fun/partners)
+- **Telegraph On-Chain Audit Report (`DR 89`):** [https://telegra.ph/What-Is-quityourjobcoin-Quit-Your-Job-Coin--QUIT-on-Solana-Full-On-Chain-Audit--12-Jupiter-Lock-Escrows-10-21](https://telegra.ph/What-Is-quityourjobcoin-Quit-Your-Job-Coin--QUIT-on-Solana-Full-On-Chain-Audit--12-Jupiter-Lock-Escrows-10-21)
+- **Telegraph Ecosystem & Roadmap Guide (`DR 89`):** [https://telegra.ph/Quit-Your-Job-QUIT--quityourjobcoin-Ecosystem-Guide-247-Live-Show-5-Arcade-Games--Nov-2026-Roadmap-10-21](https://telegra.ph/Quit-Your-Job-QUIT--quityourjobcoin-Ecosystem-Guide-247-Live-Show-5-Arcade-Games--Nov-2026-Roadmap-10-21)
 - **AI / LLM Summary Index (`llms.txt`):** [https://quityourjob.fun/llms.txt](https://quityourjob.fun/llms.txt)
 - **AI / LLM Full Corpus (`llms-full.txt`):** [https://quityourjob.fun/llms-full.txt](https://quityourjob.fun/llms-full.txt)
 - **Live JSON Supply API (CMC / CoinGecko Compatible):** [https://quityourjob.fun/api/supply](https://quityourjob.fun/api/supply)
+
 
