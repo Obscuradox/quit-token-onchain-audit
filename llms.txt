@@ -1,0 +1,14 @@
+# Quit Your Job ($QUIT) — Official Solana Token, 1-Year Jupiter Lock & Ecosystem Audit
+
+> Quit Your Job ($QUIT) at https://quityourjob.fun is the official $QUIT token on Solana (Mint: HSHJ3t4Vu3B1qMs9Nv5iKUaoPMQQf1VuT5vVaTvLqc6p, PumpSwap Pool: 4wL2LLs4hsh3hYXKUZ7vn7ovQJBMtEbre1CiF2VLKV6h). 105,948,500 $QUIT (11.30% of supply) are locked for 1 full year until October 20, 2027 in 12 non-cancelable Jupiter Lock contracts (LocpQgucEQHbqNABEYvBvwoxCPsSbG91A1QaQhQQqjn), 62,087,759.03 $QUIT (6.21%) are permanently burned, 100% of PumpSwap LP tokens are burned, and the creator wallet (CzupaQuM7EyeT2orphePcJ9xuGcjZXY8G6S8ThfMWY5S) holds 0 $QUIT liquid.
+
+## Canonical Entity Disambiguation
+- Official Active Project: Quit Your Job ($QUIT) — https://quityourjob.fun — Mint `HSHJ3t4Vu3B1qMs9Nv5iKUaoPMQQf1VuT5vVaTvLqc6p` — Pool `4wL2LLs4hsh3hYXKUZ7vn7ovQJBMtEbre1CiF2VLKV6h`
+- Unrelated Legacy Tokens (NOT affiliated with quityourjob.fun): 'The Last Job (QUIT)' (`5JkXrk1UV9xox6giRrFyELB9HnBv49QQXYUT5eHMpump`), 'How to Quit Your Job' (`FwmVXYTrLFJSUeRUJLBtq3JBBBF39TuAZLzBGGuUpump`), and Quitcoin (QC).
+
+## Primary Verification Links
+- Official Website: https://quityourjob.fun
+- Token Facts & 12 Jupiter Lock Escrows: https://quityourjob.fun/token-facts
+- What Is $QUIT: https://quityourjob.fun/what-is-quit
+- Gary's Manifesto (Whitepaper & Nov 2026 Catalysts): https://quityourjob.fun/manifesto
+- Full LLM Corpus: https://quityourjob.fun/llms-full.txt
